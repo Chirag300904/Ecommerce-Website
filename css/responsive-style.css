@@ -1,0 +1,245 @@
+/* For Tabler */
+@media screen and (max-width: 799px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60pxrgba (0, 0, 0, 0.2);
+    padding: 80px 0 0 10px;
+    transition: 0.5s ease;
+  }
+  #navbar li {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  #navbar li a {
+    color: #000;
+  }
+  #navbar li a.active {
+    color: #0b2447;
+  }
+  #lg-bag {
+    display: none;
+  }
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 24px;
+  }
+  #mobile {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  #mobile a i,
+  #mobile i {
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  #banner {
+    height: 20vh;
+  }
+  #sm-banner .banner-box {
+    width: 100%;
+    height: 30vh;
+  }
+  #banner-3 {
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #banner-3 .banner-box {
+    margin: 15px;
+  }
+  #newsletter {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #newsletter .news-text {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  #newsletter .news-text h4 {
+    font-size: 25px;
+  }
+  #newsletter .news-input {
+    width: 80%;
+  }
+
+  /* Single Product Page */
+
+  #prodetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #prodetail .sProImg {
+    width: 100%;
+  }
+  #prodetail .s-pro-detail {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Blog Page */
+  #blog {
+    padding: 100px 40px 0 40px;
+  }
+
+  /* About Page */
+
+  #about-head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #about-head img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  #about-head div {
+    padding-left: 0px;
+  }
+  #about-app .video {
+    width: 100%;
+  }
+
+  /* Contact Page */
+
+  #form-detail {
+    padding: 40px;
+  }
+  #form-detail form {
+    width: 50%;
+  }
+  #form-detail .people {
+    width: 50%;
+  }
+}
+
+/* For Mobile */
+
+@media screen and (max-width: 477px) {
+  #header {
+    padding: 15px 20px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .section-p1 {
+    padding: 20px;
+  }
+  #header .logo {
+    width: 35%;
+  }
+  #hero {
+    height: 60vh;
+    padding: 0 20px;
+    background-position: 55%;
+  }
+  #feature {
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  #feature .feature-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+  #product .pro {
+    width: 100%;
+  }
+  #banner {
+    height: 30vh;
+  }
+  #sm-banner {
+    justify-content: center;
+  }
+  #sm-banner .banner-box {
+    min-width: 100%;
+  }
+  #newsletter {
+    padding: 25px;
+  }
+  #newsletter .news-input {
+    width: 100%;
+  }
+
+  /* Blog Page */
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blog-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog .blog-box .blog-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #blog .blog-box .blog-detail {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Contact Page */
+
+  #contact-detail {
+    flex-direction: column;
+    width: 100%;
+  }
+  #contact-detail .detail,
+  #contact-detail .map {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #form-detail{
+    flex-direction: column;
+  }
+  #form-detail .people,
+  #form-detail form {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  /* Cart Page */
+
+  #cart-add{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  #coupon,
+#subtotal{
+  width: 90%;
+}
+#coupon{
+  margin-bottom: 30px;
+}
+}
